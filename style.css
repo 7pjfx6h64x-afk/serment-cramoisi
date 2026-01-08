@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    background: radial-gradient(circle at top, #120000, #000);
+    color: #eee;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #000, #140000);
+    border-bottom: 3px solid darkred;
+}
+
+header h1 {
+    color: crimson;
+    font-size: 3em;
+    text-shadow: 0 0 25px black;
+}
+
+header p {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+nav a {
+    color: #ffb3b3;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: crimson;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 20px;
+}
+
+.card {
+    background: linear-gradient(145deg, #0a0000, #160000);
+    border: 1px solid #400;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-s

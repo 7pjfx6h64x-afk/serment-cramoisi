@@ -1,0 +1,39 @@
+.brume {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: url("images/brume.png") repeat;
+    opacity: 0.08;
+    pointer-events: none;
+    animation: brumeAnim 60s linear infinite;
+    z-index: -1;
+}
+
+@keyframes brumeAnim {
+    0% { background-position: 0 0; }
+    50% { background-position: 500px 300px; }
+    100% { background-position: 1000px 600px; }
+}
+
+.lune-rouge {
+    animation: pulsation 5s infinite;
+}
+
+@keyframes pulsation {
+    0% { background-color: #200000; }
+    50% { background-color: #500000; }
+    100% { background-color: #200000; }
+}
+
+.maudit {
+    color: crimson;
+    text-shadow: 0 0 10px darkred;
+    animation: tremble 0.15s infinite alternate;
+}
+
+@keyframes tremble {
+    from { transform: translateX(-1px); }
+    to { transform: translateX(1px); }
+}
